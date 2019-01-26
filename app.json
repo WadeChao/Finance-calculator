@@ -1,12 +1,35 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/professional/index",
+    "pages/help/index",
+    "pages/my/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "快捷模式"
+    },
+    {
+      "pagePath": "pages/professional/index",
+      "text": "专家模式"
+    },
+    {
+      "pagePath": "pages/help/index",
+      "text": "帮助"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text":"我的"
+    }
+  ]
   }
 }
