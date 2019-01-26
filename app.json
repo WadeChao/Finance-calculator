@@ -1,9 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/help/index",
     "pages/logs/logs",
     "pages/professional/index",
-    "pages/help/index",
     "pages/my/index"
   ],
   "window":{
@@ -15,16 +15,16 @@
   "tabBar":{
   "list": [
     {
+      "pagePath": "pages/help/index",
+      "text": "帮助中心"
+    },
+    {
       "pagePath": "pages/index/index",
       "text": "快捷模式"
     },
     {
       "pagePath": "pages/professional/index",
       "text": "专家模式"
-    },
-    {
-      "pagePath": "pages/help/index",
-      "text": "帮助中心"
     },
     {
       "pagePath": "pages/my/index",
