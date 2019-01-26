@@ -1,2 +1,6 @@
 <!--pages/professional/index.wxml-->
-<text>pages/professional/index.wxml</text>
+<view class="professional">
+    <view class="expert-func-section"  wx:for="{{expertFuncList}}" wx:for-item="function" id="{{function.id}}">
+        <view class="func-name">{{function.name}}</view>
+    </view>
+</view>

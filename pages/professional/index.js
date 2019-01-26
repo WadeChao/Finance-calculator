@@ -5,14 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    expertFuncList: [],
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      expertFuncList: [{ id: 0, name: '复利终值' }, { id: 1, name: '复利现值' }, { id: 2, name: '复利终值' }, { id: 3, name: '复利终值' }, { id: 4, name: '复利终值' }, { id: 5, name: '复利终值' }]
+    })
   },
 
   /**
