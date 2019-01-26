@@ -24,11 +24,11 @@
     },
     {
       "pagePath": "pages/help/index",
-      "text": "帮助"
+      "text": "帮助中心"
     },
     {
       "pagePath": "pages/my/index",
-      "text":"我的"
+      "text":"我的收藏"
     }
   ]
   }
