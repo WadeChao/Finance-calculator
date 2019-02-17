@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      expertFuncList: [{ id: 0, name: '复利终值' }, { id: 1, name: '复利现值' }, { id: 2, name: '复利终值' }, { id: 3, name: '复利终值' }, { id: 4, name: '复利终值' }, { id: 5, name: '复利终值' }]
+      expertFuncList: this.getProfessionalFuncs()
     })
   },
 
@@ -64,5 +64,15 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+  getProfessionalFuncs: function () {
+    let professionalfuncList = [{ id: 0, name: '复利终值' }, { id: 1, name: '复利现值' }]
+    return professionalfuncList;
+  },
+
+  navigateTo: function () {
+    wx.navigateTo({ url: '../compoundFinal/compoundFinal' })
+  },
+
 })

@@ -1,6 +1,8 @@
 <!--pages/professional/index.wxml-->
 <view class="professional">
-    <view class="expert-func-section"  wx:for="{{expertFuncList}}" wx:for-item="function" id="{{function.id}}">
-        <view class="func-name">{{function.name}}</view>
+    <view class="expert-func-wrapper">
+        <view class="expert-func-section"  wx:for="{{expertFuncList}}" wx:for-item="function"  wx:key="{{function.name}}_{{function.id}}" id="{{function.id}}">
+            <button class="expert-func" bindtap="navigateTo">{{function.name}}</button> 
+        </view>
     </view>
 </view>

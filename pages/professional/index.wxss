@@ -2,14 +2,18 @@
 
 .professional {
     width: 100%;
+}
+.expert-func-wrapper {
     display: flex;
+    position: relative;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
 }
-.expert-func-section {
+
+ .expert-func-wrapper .expert-func-section {
     display: flex;
     flex: 50%;
     justify-content:center;
     align-items: center; 
+    text-align: center;
 }

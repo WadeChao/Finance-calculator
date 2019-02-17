@@ -4,7 +4,8 @@
     "pages/help/index",
     "pages/logs/logs",
     "pages/professional/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/compoundFinal/compoundFinal"
   ],
   "window":{
     "backgroundTextStyle":"light",

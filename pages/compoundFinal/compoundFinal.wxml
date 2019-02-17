@@ -1,0 +1,4 @@
+<!--pages/professional/index.wxml-->
+<view class="compound-final">
+    复利终值
+</view>
