@@ -1,4 +1,43 @@
 <!--pages/professional/index.wxml-->
 <view class="compound-final">
-    复利终值
+    <view class="title-sec">
+      <text class="page-title">{{title}}</text>
+    </view>
+    <view class="input-sec">
+       <view class="item-sec">
+        <view class="left-sec">
+            <text class="name">期数(n)</text>
+        </view>
+        <view class="right-sec">
+            <view class="content">
+                <input class="content-input" name="input-period" type="text" value=""></input>
+                <span class="content-unit"></span>
+            </view>
+        </view>
+       </view>
+       <view class="item-sec">
+        <view class="left-sec">
+            <text class="name">利率(n)</text>
+        </view>
+        <view class="right-sec">
+            <view class="content">
+                <input class="content-input" name="input-rate" type="text" value=""></input>
+                <span class="content-unit">％</span>
+            </view>
+        </view>
+       </view>
+    </view>
+    <view class="calc-sec">
+        <button class="calc-button"><text>计算</text></button>
+    </view>
+    <view class="result-sec">
+        <view class="left-sec">
+            <text class="name">结果</text>
+        </view>
+        <view class="right-sec">
+            <view class="content">
+                <text class="text-result" ></text>
+            </view>
+        </view>
+    </view>
 </view>
